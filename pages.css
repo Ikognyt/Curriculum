@@ -1,9 +1,11 @@
-\\Menu
+/*Menu*/
 aside {
     
     
 } aside h1 {
-    
+    font-family: "Share Tech Mono", sans-serif;
+    font-size: 25px;
+    text-align: left;
 } aside ul {
     list-style-type: none;
     
@@ -13,19 +15,32 @@ aside {
 }
 
 
-\\Main content
-body {
-    font-family: "Orbitron", sans-serif;
-} body h1 {
-    
-} body h2 {
-    
+/*Main content*/
+main p {
+    font-family: "Iceland", sans-serif;
+    font-size: 30px
+} h1 {
+    font-family: "Audiowide", sans-serif;
+    font-size: 50px;
+    text-align: center;
+} main h1 {
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 25px;
+    margin-top: 30px;
+    padding-top: 20px;
 } body ul {
     list-style-type: none;
-} 
+} main h2 {
+    font-family: "Gugi", sans-serif;
+    font-size: 30px;
+} ul h3 {
+    font-family: "Bungee Inline", sans-serif;
+    font-size: 25px;
+    background-color: darkblue;
+}
 
 
-\\Footer
+/*Footer*/
 footer {
     
 } footer h4 {
