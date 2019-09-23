@@ -1,7 +1,10 @@
-/*Menu*/
+/*Menus*/
 aside {
-    background-image: url(Media/background/vector-backgrond-lines_2065-248.jpg)
-    
+    background-image: url(Media/background/01.jpg);
+    padding: 0.5%;
+    background-attachment: fixed;
+    background-size: cover;
+    color: whitesmoke;
 } aside h1 {
     font-family: "Share Tech Mono", sans-serif;
     font-size: 25px;
@@ -11,48 +14,74 @@ aside {
     
 } aside a {
     text-decoration: none;
-    
+    color: whitesmoke;
+
 }
 
 
 /*Main content*/
-main p {
-    font-family: "Iceland", sans-serif;
-    font-size: 30px
-} div h1 {
+div h1 {
     font-family: "Audiowide", sans-serif;
-    font-size: 70px;
+    font-size: 75px;
     text-align: center;
-    margin-bottom: 80px;
-    margin-top: 85px;
+    background-image: url(Media/background/01.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15%;
 } main h1 {
     font-family: "Press Start 2P", sans-serif;
     font-size: 25px;
-    margin-top: 70px;
     padding-top: 20px;
+} main p {
+    font-family: "Iceland", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    width: 500px;
+    margin-left: 2.5%;
+}  main li {
+    display: inline-block;
 } body ul {
     list-style-type: none;
 } main h2 {
     font-family: "Gugi", sans-serif;
     font-size: 30px;
     font-style: oblique;
+    margin-left: 40px;
+    margin-top: 40px;
 } ul h3 {
     font-family: "Bangers", sans-serif;
     font-size: 25px;
     background-image: url(Media/background/black%20geometric.jpg);
     padding: 2%;
     text-align:left;
-    
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
 
 /*Footer*/
 footer {
-    
+    background-color: black;
+    color: whitesmoke;
+    padding: 1.5%;
 } footer h4 {
-    
+    text-align: center;
+    margin: 10px;
 } footer ul {
     list-style-type: none;
 } footer a {
     text-decoration: none;
+    color: whitesmoke;
+} footer div {
+    display: inline-block;
+}
+
+/*Blockquotes*/
+ footer blockquotes {
+    text-align: right;
+    width: 100px;
+    margin-left: 70px;
 }
