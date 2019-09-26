@@ -24,20 +24,30 @@ aside {
 /*Main content*/
 body {
     background-color: rgb(255, 255, 255);
-} div h1 {
+} .font-effect-anaglyph {
     font-family: "Audiowide", sans-serif;
-    font-size: 90px;
+    font-size: 105px;
     text-align: center;
     background-image: url(Media/background/2861653.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 26%;
-} main h1 {
+    display: block;
+    padding: 32%;
+    padding-left: 240px;
+    padding-bottom: 510px;
+    position: relative;
+} .font-effect-3d {
     font-family: "Press Start 2P", sans-serif;
     font-size: 25px;
     padding-top: 20px;
-    
+    text-align: center;
+    padding: 10%;
+    background-image: url(Media/plus/controler\ skin.png);
+    background-attachment: fixed;
+    background-position-y: -350px;
+    background-size: cover;
+    background-repeat: no-repeat;
 } main p {
     font-family: "Iceland", sans-serif;
     font-size: 30px;
@@ -49,7 +59,14 @@ body {
     color: azure;
     background-size: auto;
     padding: 4%;
-}  main li {
+    border-top-right-radius: 15px;
+} .continuum-txt {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 15px;
+} .start-txt {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+} main li {
     display: inline-block;
 } body ul {
     list-style-type: none;
@@ -60,8 +77,8 @@ body {
     font-family: "Gugi", sans-serif;
     font-size: 30px;
     font-style: oblique;
-    margin-left: 40px;
-    margin-top: 40px;
+    padding-left: 40px;
+    padding-top: 40px;
 } ul h3 {
     font-family: "Bangers", sans-serif;
     font-size: 30px;
@@ -69,10 +86,12 @@ body {
     text-align:left;
     background-size: cover;
     background-attachment: inherit;
-} ul h4 {
-    font-size: 30px;
-    padding: 2%;
-    font-family: "Bangers", sans-serif;
+} #absorved-header {
+    background-image: url(Media/plus/controler\ skin.png);
+    background-attachment: fixed;
+    background-position-y: -350px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
@@ -85,14 +104,17 @@ footer {
 } footer h4 {
     text-align: center;
     margin: 10px;
-} footer ul {
+} .footer-menu ul {
     list-style-type: none;
     background: none;
-} footer a {
+    position: relative;
+} .footer-menu a {
     text-decoration: none;
     color: whitesmoke;
-} footer div {
-    display: inline-block;
+} footer p {
+    position: relative;
+    width: 140px;
+    text-align: left;
 }
 
 /*Blockquotes*/
@@ -101,3 +123,5 @@ footer {
     width: 100px;
     margin-left: 70px;
 }
+
+/*Stiky test*/
