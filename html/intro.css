@@ -1,0 +1,146 @@
+/*Menus*/
+.first-background {
+    background-image: url(Media/background/2861653.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Main-contet*/
+.font-effect-anaglyph {
+    font-family: "Audiowide", sans-serif;
+    font-size: 105px;
+    text-align: center;
+    display: block;
+    padding: 32%;
+    padding-left: 240px;
+    padding-bottom: 510px;
+} .font-effect-3d {
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 25px;
+    padding-top: 20px;
+    text-align: center;
+    padding: 10%;
+    background-image: url(Media/plus/controler\ skin.png);
+    background-attachment: fixed;
+    background-position-y: -230px;
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+
+
+#absorved-header {
+    background-image: url(Media/plus/controler\ skin.png);
+    background-attachment: fixed;
+    background-position-y: -230px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Gugi", sans-serif;
+    font-size: 30px;
+    font-style: oblique;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+
+
+/*Stack Techs*/
+.stack-techs {
+    display: block;
+    float: right;
+} #stack-title {
+    font-family: "Gugi", sans-serif;
+    font-size: 30px;
+    font-style: oblique;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    padding-left: 100px;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    clear: both;
+    display: block;
+    width: cover;
+} .front-title, .back-title {
+    text-align: center;
+}/*Front-end stack*/
+.stack-techs .front {
+    float: left;
+    clear: both;
+} .front a {
+    text-decoration: none;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    color: transparent;
+    float: right;
+    clear: both;
+} #htmljscss a {
+    background-image: url(Media/plus/htmljscss2.png);
+    padding: 110px;
+    padding-bottom: 70px;
+} #react a {
+    background-image: url(Media/plus/react.png);
+    padding: 68px;
+    padding-right: 125px;
+} #angular a {
+    background-image: url(Media/plus/angular.png);
+    padding: 68px;
+    padding-bottom: 80px;
+    padding-right: 110px;
+}/*Back-end stack*/
+.stack-techs .back {
+    clear: both;
+    display: block;
+    width: 355px;
+} .back-title {
+    padding: 40px;
+    position: relative;
+    right: 30px;
+}.back a {
+    text-decoration: none;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    color: transparent;
+} #nodejs a {
+    background-image: url(Media/plus/node.png);
+    padding-right: 35px;
+    padding-bottom: 130px;
+    padding-left: 40px;
+    float: left;
+    position: relative;
+    right: 20px;
+} #csharp a {
+    background-image: url(Media/plus/csharp.png);
+    padding-top: 130px;
+    padding-right: 70px;
+    float: left;
+    clear: right;
+    position: relative;
+    left: 40px;
+    
+} #dotnet a {
+    background-image: url(Media/plus/dotnet.png);
+    padding-bottom: 20px;
+    padding-right: 85px;
+    padding-top: 150px;
+    float: left;
+    position: relative;
+    top: 20px;
+    right: 10px;
+} #sqlazure a {
+    background-image: url(Media/plus/sqlazure.png);
+    padding-right: 40px;
+    padding-bottom: 150px;
+    float: left;
+    clear: right;
+    position: relative;
+    left: 45px;
+} #mongodb a {
+    background-image: url(Media/plus/mongodb.png);
+    padding-left: 70px;
+    padding-top: 140px;
+    float: left;
+    clear: both;
+    position: relative;
+    left: 85px;
+
+}
